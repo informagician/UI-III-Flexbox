@@ -66,24 +66,29 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 /* Universal Style */
-.col {
-	display: flex;
-	flex-direction: column;
-}
-.row {
-	display: flex;
-}
+
 h1, h2, h3 {
-	margin: 25px 0;
+	margin: 25px 0 20px;
 }
 hr {
 	margin: 30px 0px 0px;
 }
-section {
-	margin:0;
+.col {
 	display: flex;
+	flex-direction: column;
+	line-height: 1.2;
+}
+.row {
+	display: flex;
+	line-height: 1.2;
+}
+.wrap {
+	flex-wrap: wrap;
+}
+.between {
 	justify-content: space-between;
 }
+
 /* Navbar Section */
 .navbar {
 	height: 72px;
@@ -136,9 +141,9 @@ button {
 /* Sections */
 
 
-section div:nth-child(2) {
+/* section div:nth-child(2) {
 	margin: 0 1%;
-}
+} */
 
 /* Middle Image */
 
@@ -173,4 +178,21 @@ header > h1 {
 }
 .services-header-img {
 
+}
+
+/* cards */
+
+.card {
+	width: 48%;
+	border: 1px solid black;
+	padding: 0px 25px 20px;
+	background-color: #eee;
+	margin-top: 30px;
+}
+.card button {
+	width: 140px;
+	font-size: 11px;
+	border-radius: 5px;
+	margin: 10px 0;
+	padding: 10px 0;
 }
