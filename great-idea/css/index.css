@@ -109,10 +109,6 @@ header {
 h1 {
 	font-size: 76px;
 }
-/* .headerImage {
-	display: inline-block;
-	width: 43%;
-} */
 button {
 	font-size: 16px;
 	padding: 8px 40px;
@@ -123,35 +119,36 @@ hr {
 	margin: 50px 0px;
 }
 
-/* First Section */
+/* Sections */
 
 section {
 	margin: 40px 0px;
-}
-.sec-1 {
 	display: flex;
 	justify-content: space-between;
 }
+section div:nth-child(2) {
+	margin: 0 1%;
+}
+
 /* Middle Image */
+
 .middle-img {
-	display: inline-block;
 	margin: 20px auto;
 }
-/* Second Section */
-.col-3 {
-	display: inline-block;
-	width: 32%;
-}
-.col-3:nth-child(1), .col-3:nth-child(2) {
-	margin-right: 1.5%;
-}
+
 /* Contact section */
+
+.contact {
+	display: flex;
+	flex-direction: column;
+}
 .contact p {
 	margin: 15px 0;
 }
+
 /* Footer */
+
 footer {
 	text-align: center;
 	margin-bottom: 100px;
-	font-family: 'Indie Flower', Arial, Helvetica, sans-serif;
 }
