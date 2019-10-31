@@ -73,6 +73,10 @@ h1, h2, h3 {
 hr {
 	margin: 30px 0px 0px;
 }
+.thick {
+	height: 3px;
+	margin-bottom: 30px;
+}
 .col {
 	display: flex;
 	flex-direction: column;
@@ -172,6 +176,10 @@ footer {
 
 /* Services Page */
 
+.facts {
+	width: 46%;
+}
+
 /* Header */
 header > h1 {
 	font-size: 24px;
@@ -195,4 +203,14 @@ header > h1 {
 	border-radius: 5px;
 	margin: 10px 0;
 	padding: 10px 0;
+}
+
+/* Lists */
+
+ul {
+	margin: 20px 0 0 20px;
+	line-height: 1.5;
+}
+li {
+	list-style: square;
 }
