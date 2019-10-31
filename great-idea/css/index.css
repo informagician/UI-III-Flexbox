@@ -68,13 +68,6 @@ h1, h2, h3, h4, h5 {
 
 
 /* Navbar Section */
-.top {
-	width: 100%;
-	position: fixed;
-	top: 0;
-	background-color: white;
-	box-shadow: lightgrey 1px 1px 5px;
-}
 .navbar {
 	width: 876px;
 	line-height: 72px;
@@ -101,7 +94,6 @@ nav a {
 .container {
 	width: 876px;
 	margin:0 auto;
-	padding-top: 72px;
 }
 
 /* Header Section */
