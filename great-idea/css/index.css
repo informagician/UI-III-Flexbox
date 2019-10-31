@@ -69,19 +69,18 @@ h1, h2, h3, h4, h5 {
 
 /* Navbar Section */
 .navbar {
-	width: 876px;
-	line-height: 72px;
-	vertical-align: middle;
+	height: 72px;
 	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
-.navbar img {
-	display: inline-block;
-	vertical-align: middle;
-}
+/* .navbar img {
+	max-height: 100%;
+} */
 nav {
-	display: inline-block;
-	padding:0px 10px 0px 0px;
-	vertical-align: middle;
+	display: flex;
+	justify-content: space-between;
 }
 nav a {
 	text-decoration: none;
